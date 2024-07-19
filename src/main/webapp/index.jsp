@@ -4,7 +4,505 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./project.css">
+  <style>
+video {
+    position: absolute;
+    z-index: 2;
+    height: 649px;
+    background-color: black;
+}
+
+#mainnav {
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    /* background-color: white; */
+}
+
+nav {
+    border: 0px solid black;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+}
+
+.nav1 {
+    border: 0px solid red;
+    height: 60px;
+    width: 750px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.child {
+    border: 0px solid blue;
+    width: 80px;
+    height: 45px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+#child4,
+#child6 {
+    width: 95px;
+}
+
+#child5,
+#child6 {
+    width: 145px;
+}
+
+.nav2 {
+    border: 0px solid red;
+    height: 60px;
+    width: 200px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.max {
+    border: 0px solid blue;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+.child:hover {
+    color: red;
+    border-bottom: 2px solid black;
+}
+
+.max:hover {
+    color: red;
+    border-bottom: 2px solid black;
+}
+
+#child1 {
+    height: 60px;
+    width: 60px;
+    border: none;
+}
+
+#txt {
+    border: 0px solid red;
+}
+
+
+
+#txt1 {
+    border: 0px solid black;
+    width: 200px;
+    height: 40px;
+    padding-left: 65px;
+    position: relative;
+    z-index: 4;
+    color: white;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+b {
+    font-size: 25px;
+}
+
+#txt2 {
+    border: 0px solid black;
+    width: 60px;
+    height: 30px;
+    font-size: 19px;
+    position: relative;
+    z-index: 5;
+    color: white;
+}
+
+#page {
+    border: 0px solid red;
+    width: px;
+    height: 100px;
+    z-index: 7;
+    position: relative;
+}
+
+#paragraph {
+    border: 0px solid red;
+    z-index: 6;
+    position: relative;
+    width: 500px;
+    height: 210px;
+    left: 100px;
+}
+
+#paragraph1 {
+    border: 0px solid blue;
+    height: 25px;
+    color: white;
+    display: flex;
+}
+
+#paragraph2 {
+    border: 0px solid blue;
+    height: 80px;
+    color: white;
+    font-size: 70px;
+}
+
+#paragraph3 {
+    border: 0px solid blue;
+    height: 35px;
+    color: white;
+    font-size: 30px;
+}
+
+#button1 {
+    border: 0px solid blue;
+    width: 170px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 190px;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#button1:hover {
+    color: black;
+    border-bottom: 2px solid red;
+}
+
+
+
+/* PAGE2 */
+
+
+#video2 {
+    position: absolute;
+    z-index: 2;
+    height: 649px;
+    background-color: black;
+}
+
+/* #main2
+{
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+} */
+
+#page2 {
+    z-index: 3;
+    position: relative;
+    border: 0px solid red;
+    width: 1280px;
+    height: 250px;
+}
+
+#border {
+    border: 0px solid red;
+    width: 500px;
+    height: 250px;
+    position: relative;
+    z-index: 4;
+    left: 100px;
+}
+
+.separtor {
+    border: 0px solid red;
+    display: flex;
+    gap: 20px;
+}
+
+#button2:hover{
+    border-bottom: 2px solid red;
+    color:chocolate;
+}
+
+#button3:hover{
+    border-bottom: 2px solid red;
+    color:chocolate;
+}
+
+#button2 {
+    border: 0px solid blue;
+    width: 170px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#button3 {
+    border: 0px solid blue;
+    width: 170px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* PAGE3 */
+.page3 {
+    border: 0px solid red;
+    height: 80px;
+    position: relative;
+}
+
+#first {
+    border: 0px solid black;
+    height: 25px;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#second {
+    border: 0px solid black;
+    height: 50px;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+/* car section */
+
+#carmain {
+    border: 0px solid red;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carmain1 {
+    border: 0px solid red;
+    height: 280px;
+    width: 1255px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.car1 {
+    border: 0px solid red;
+    height: 250px;
+    width: 350px;
+}
+
+#step1 {
+    border: 0px solid black;
+    height: 160px;
+}
+
+#step2 {
+    border: 0px solid black;
+    height: 35px;
+}
+
+#step3 {
+    border: 0px solid black;
+    height: 60px;
+}
+
+.step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#searchbox1 {
+    border: 1px solid black;
+    height: 40px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+#searchbox2,
+#searchbox3 {
+    border: 1px solid black;
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+#searchbox1:hover{
+    border-bottom: 2px solid red;
+    color:chocolate;
+}
+
+#searchbox2:hover{
+    border-bottom: 2px solid red;
+    color:chocolate;
+}
+
+#searchbox3:hover{
+    border-bottom: 2px solid red;
+    color:chocolate;
+}
+
+
+/* page3 */
+img {
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+}
+
+#imagepart {
+    z-index: 2;
+    position: relative;
+    border: 0px solid red;
+    height: 500px;
+}
+
+#space{
+    border: 0px solid red;
+    height: 130px;
+}
+
+
+#border1 {
+    border: 0px solid red;
+    width: 500px;
+    height: 190px;
+    position: relative;
+    z-index: 4;
+    left: 100px;
+}
+
+#paragraph4 {
+    border: 0px solid blue;
+    height: 60px;
+    font-size: 45px;
+    color: white;
+    display: flex;
+}
+
+#paragraph5 {
+    border: 0px solid blue;
+    height: 60px;
+    font-size: 45px;
+    color: white;
+}
+
+#paragraph6 {
+    border: 0px solid blue;
+    height: 55px;
+    color: white;
+    font-size: 30px;
+}
+
+#button4{
+    border: 1px solid white;
+    height: 50px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 35px;
+}
+
+#button4:hover{
+    border-bottom: 2px solid red;
+    color: chocolate;
+}
+
+/* page4 */
+
+#page4{
+    border: 0px solid black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.imageview1{
+    border: 0px solid black;
+    width: 600px;
+    height: 380px;
+}
+
+.imageview2{
+    border: 0px solid black;
+    width: 650px;
+    height: 380px;
+    justify-content: center;
+    align-items: center;
+}
+
+#imfo1{
+    border: 0px solid black;
+    height: 25px;
+    font-size: 25px;
+}
+
+#imfo2{
+    border: 0px solid black;
+    height: 120px;
+    font-size: 50px;
+}
+
+#imfo3{
+    border: 0px solid black;
+    height: 70px;
+    font-size: 25px;
+}
+
+#imagebutton{
+    border: 1px solid black;
+    height: 40px;
+    width: 150px;
+    /* right: 100px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}</style>
 </head>
 <body>
   <section id="main">
