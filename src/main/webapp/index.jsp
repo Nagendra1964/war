@@ -4,27 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        form{
+            background-color: powderblue;
+            height: 100vh;
+            background-image: url("photos/download.jpeg");
+            background-repeat: no-repeat;
+
+        }
+        
+    </style>
 </head>
-<body><center>
-    <section>
-        <nav style="border:2px solid green;height:100px;">
-        <h1 style="border:1px solid blue;height:50px;width:150px;">Header</h1></nav>
-    </section>
-</center>
-
-<section style="border:1px solid black;height:300px;background-color: grey;">
-<figure>
-    <img src="./photos/robert hooke.jpg" alt=""height="270px">
-</figure>
-</section>
-
-<section style="border:1px solid brown;height:300px;background-color: yellow;">
-    <footer style="border:1px solid red;height:100px;">
-    <h1 style="border:1px solid black;height:50px;width:150px;">footer</h1></footer>
-    <figure>
-        <img src="./photos/shwann.jpg" alt=""height="270px">
-    </figure>
-</section>
-
+<body>
+    <center>
+        <form action="">
+            <h1 >Hello everyone</h1>
+            <h1>please Register here</h1>
+            <table>
+                <tr>
+                    <td><label for="uname">Username:</label>
+                    <br><input type="text" name="" id="" placeholder="Enter username"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label><br>
+                    <input type="email" name="" id="" placeholder="Enter mailid"></td>
+                </tr>
+                <tr>
+                    <td><label for="passward">Passward</label><br>
+                    <input type="password" name="" id="" placeholder="Enter passward"></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+    
 </body>
 </html>
