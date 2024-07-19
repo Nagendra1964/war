@@ -23,7 +23,7 @@
             <table>
                 <tr>
                     <td><label for="uname">Username:</label>
-                    <br><input type="text" name="" id="" placeholder="Enter username"></td>
+                    <br><input type="text" name="" id="" placeholder="Enter name"></td>
                 </tr>
                 <tr>
                     <td><label for="email">Email</label><br>
