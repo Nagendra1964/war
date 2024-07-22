@@ -16,7 +16,7 @@ video {
     background-repeat: no-repeat;
     position: absolute;
     z-index: 1;
-    /* background-color: white; */
+    /* background-color: red; */
 }
 
 nav {
@@ -33,7 +33,7 @@ nav {
     border: 0px solid red;
     height: 60px;
     width: 750px;
-    gap: 60px;
+    gap: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
