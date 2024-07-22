@@ -65,7 +65,7 @@ nav {
 .nav2 {
     border: 0px solid red;
     height: 60px;
-    width: 150px;
+    width: 100px;
     gap: 20px;
     display: flex;
     justify-content: center;
