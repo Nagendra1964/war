@@ -65,8 +65,8 @@ nav {
 .nav2 {
     border: 0px solid red;
     height: 60px;
-    width: 200px;
-    gap: 20px;
+    width: 300px;
+    gap: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -516,6 +516,7 @@ img {
             <div class="child" id="child5">DINEOUT</div>
             <div class="child" id="child6">REORDER</div>
             <div class="child" id="child7">ADDRESS</div>
+            <div class="child" id="child7">CONTACT</div>
         </div>
         <div class="nav2">
             <div class="max" id="nan1"><i class="fa-solid fa-magnifying-glass"></i></div>
