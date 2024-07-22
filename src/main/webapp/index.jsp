@@ -586,7 +586,7 @@ img {
                 <div style=" align-items: center;
                 justify-content: center;
                 display: flex;">
-                    <div id="searchbox1">SEARCH NOW</div>
+                    <div id="searchbox1">SEARCH OUR FOOD</div>
                 </div>
 
             </div>
