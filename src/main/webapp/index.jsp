@@ -66,7 +66,7 @@ nav {
     border: 0px solid red;
     height: 60px;
     width: 300px;
-    gap: 30px;
+    gap: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
