@@ -554,7 +554,7 @@ img {
 <div id="border">
     <div id="paragraph1">THE NEW</div>
     <div id="paragraph2">TASTE</div>
-    <div id="paragraph3">Elegance on EVERY PLATE</div>
+    <div id="paragraph3">Elegance  EVERY PLATE</div>
     <br>
     <div class="separtor">
         <div id="button2"><input type="button" value="EAT & ENJOY"></div>
