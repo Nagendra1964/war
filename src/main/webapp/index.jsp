@@ -536,7 +536,7 @@ img {
     <div>
         <div id="paragraph">
             <div id="paragraph1">Indulging in flavors that make life delicious</div>
-            <div id="paragraph2">Eat well</div>
+            <div id="paragraph2">Eat well Elite batch</div>
             <div id="paragraph3">stay Healthy</div>
             <div id="button1">
                 <input type="button" value="Order Now">
